@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pc shop</title>
+
+    <!-- css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="container">
+      <!-- intro section -->
+    <section class="container intro-sec d-flex justify-content-evenly mt-4">
+        <div>
+            <img class="img-fluid" src="images/mac.png" alt="">
+        </div>
+        <div class="ms-4 ps-4">
+            <h1>Customize your blue 24-inch iMac with Apple M1 chip</h1>
+            <p class="mt-4">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Enginr 8GB unified memory 256 SSD storage Two Thunderbolt/USB 4 ports Magic keyboard mouse Us english</p>
+        </div>
+    </section>
+
+    <!-- buy option section  -->
+    <section class="container d-flex justify-content-center">
+        <div>
+            <div class="mt-4">
+                <h2>Memory</h2>
+                <button type="button" class="text-dark fw-bold btn btn-outline-secondary" id="8gb-memory-btn">8GB unified memory</button>
+                <button type="button" class="text-dark fw-bold btn btn-outline-secondary" id="16gb-memory-btn">16GB unified memory</button>
+            </div>
+            <div class="mt-4">
+                <h2>Storage</h2>
+                <button type="button" class="text-dark fw-bold btn btn-outline-secondary" id="256gb-storage">256GB SSD storage</button>
+                <button type="button" class="text-dark fw-bold btn btn-outline-secondary" id="512gb-storage">512GB SSD storage</button>
+                <button type="button" class="text-dark fw-bold btn btn-outline-secondary" id="1TB-storage">1TB SSD storage</button>
+            </div>
+            <div class="mt-4 mb-4">
+                <h2>Choose your Delivery option</h2>
+                <button type="button" class="text-dark fw-bold btn btn-outline-secondary" id="delivery-free">Friday, Aug-25 FREE delivery</button>
+                <button type="button" class="text-dark fw-bold btn btn-outline-secondary" id="deliver-apply">Friday, Aug-21 Charge $20</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- price calculating section -->
+    <section class="container d-flex  justify-content-center">
+        <div>
+            <div class="d-flex mt-4">
+                <div>
+                    <h4 class="mt-4">Best Price :</h4>
+                    <h4 class="mt-4">Extra Memory cost :</h4>
+                    <h4 class="mt-4">Extra Storage cost:</h4>
+                    <h4 class="mt-4">Delivery charge :</h4>
+                    <br>
+                    <hr class="p-1">
+                    <h4>Total Price :</h4>
+                </div>
+                <div class="ms-4">
+                    <h4 class="mt-4">$<span id="best-price">1299</span></h4>
+                    <h4 class="mt-4">$<span id="memory-cost">0</span></h4>
+                    <h4 class="mt-4">$<span id="storage-cost">0</span></h4>
+                    <h4 class="mt-4">$<span id="delivery-cost">0</span></h4>
+                    <br>
+                    <hr class="p-1">
+                    <h4>$<span id="total-price">1299</span> </h4>
+                </div>
+                
+            </div>
+            <div class="mt-4 pt-4 mb-4">
+                <h5>Add Promo Code</h5>
+                <input type="text" class="input" id="promoCodeInput">
+                <button type="button" class="text-dark fw-bold btn btn-success" id="apply-btn">Apply</button>
+                <br>
+                <hr class="p-1">
+                <h2>Total : $<span id="total-discount-price">1299</span> </h2>
+            </div>
+        </div>
+    </section>
+  </main>
+  
+  <!-- java script link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="js/mac-book.js"></script>
+</body>
+</html>
